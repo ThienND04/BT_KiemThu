@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sumTests.dir/link.d CMakeFiles/sumTests.dir/sum.cpp.o -o sumTests  /usr/lib/libgtest.so.1.17.0 -lpthread
