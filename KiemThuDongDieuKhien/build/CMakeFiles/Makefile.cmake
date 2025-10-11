@@ -71,4 +71,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/gradeTests.dir/DependInfo.cmake"
   "CMakeFiles/sumTests.dir/DependInfo.cmake"
   "CMakeFiles/fooTests.dir/DependInfo.cmake"
+  "CMakeFiles/bmiTests.dir/DependInfo.cmake"
   )

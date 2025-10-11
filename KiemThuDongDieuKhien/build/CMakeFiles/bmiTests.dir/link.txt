@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/bmiTests.dir/link.d CMakeFiles/bmiTests.dir/bmi.cpp.o -o bmiTests  /usr/lib/libgtest.so.1.17.0 -lpthread

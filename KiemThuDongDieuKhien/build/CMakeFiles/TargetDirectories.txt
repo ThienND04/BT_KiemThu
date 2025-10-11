@@ -1,5 +1,6 @@
 /home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles/gradeTests.dir
 /home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles/sumTests.dir
 /home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles/fooTests.dir
+/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles/bmiTests.dir
 /home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles/edit_cache.dir
 /home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles/rebuild_cache.dir

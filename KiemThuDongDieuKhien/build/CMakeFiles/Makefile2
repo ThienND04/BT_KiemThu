@@ -66,12 +66,14 @@ CMAKE_BINARY_DIR = /home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build
 all: CMakeFiles/gradeTests.dir/all
 all: CMakeFiles/sumTests.dir/all
 all: CMakeFiles/fooTests.dir/all
+all: CMakeFiles/bmiTests.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/gradeTests.dir/codegen
 codegen: CMakeFiles/sumTests.dir/codegen
 codegen: CMakeFiles/fooTests.dir/codegen
+codegen: CMakeFiles/bmiTests.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -82,6 +84,7 @@ preinstall:
 clean: CMakeFiles/gradeTests.dir/clean
 clean: CMakeFiles/sumTests.dir/clean
 clean: CMakeFiles/fooTests.dir/clean
+clean: CMakeFiles/bmiTests.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -91,7 +94,7 @@ clean: CMakeFiles/fooTests.dir/clean
 CMakeFiles/gradeTests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradeTests.dir/build.make CMakeFiles/gradeTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradeTests.dir/build.make CMakeFiles/gradeTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=3,4 "Built target gradeTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=5,6 "Built target gradeTests"
 .PHONY : CMakeFiles/gradeTests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -108,7 +111,7 @@ gradeTests: CMakeFiles/gradeTests.dir/rule
 # codegen rule for target.
 CMakeFiles/gradeTests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradeTests.dir/build.make CMakeFiles/gradeTests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=3,4 "Finished codegen for target gradeTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=5,6 "Finished codegen for target gradeTests"
 .PHONY : CMakeFiles/gradeTests.dir/codegen
 
 # clean rule for target.
@@ -123,7 +126,7 @@ CMakeFiles/gradeTests.dir/clean:
 CMakeFiles/sumTests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sumTests.dir/build.make CMakeFiles/sumTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sumTests.dir/build.make CMakeFiles/sumTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=5,6 "Built target sumTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=7,8 "Built target sumTests"
 .PHONY : CMakeFiles/sumTests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +143,7 @@ sumTests: CMakeFiles/sumTests.dir/rule
 # codegen rule for target.
 CMakeFiles/sumTests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sumTests.dir/build.make CMakeFiles/sumTests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=5,6 "Finished codegen for target sumTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=7,8 "Finished codegen for target sumTests"
 .PHONY : CMakeFiles/sumTests.dir/codegen
 
 # clean rule for target.
@@ -155,7 +158,7 @@ CMakeFiles/sumTests.dir/clean:
 CMakeFiles/fooTests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fooTests.dir/build.make CMakeFiles/fooTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fooTests.dir/build.make CMakeFiles/fooTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=1,2 "Built target fooTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=3,4 "Built target fooTests"
 .PHONY : CMakeFiles/fooTests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -172,13 +175,45 @@ fooTests: CMakeFiles/fooTests.dir/rule
 # codegen rule for target.
 CMakeFiles/fooTests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fooTests.dir/build.make CMakeFiles/fooTests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=1,2 "Finished codegen for target fooTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=3,4 "Finished codegen for target fooTests"
 .PHONY : CMakeFiles/fooTests.dir/codegen
 
 # clean rule for target.
 CMakeFiles/fooTests.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fooTests.dir/build.make CMakeFiles/fooTests.dir/clean
 .PHONY : CMakeFiles/fooTests.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bmiTests.dir
+
+# All Build rule for target.
+CMakeFiles/bmiTests.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmiTests.dir/build.make CMakeFiles/bmiTests.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmiTests.dir/build.make CMakeFiles/bmiTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=1,2 "Built target bmiTests"
+.PHONY : CMakeFiles/bmiTests.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bmiTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bmiTests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles 0
+.PHONY : CMakeFiles/bmiTests.dir/rule
+
+# Convenience name for target.
+bmiTests: CMakeFiles/bmiTests.dir/rule
+.PHONY : bmiTests
+
+# codegen rule for target.
+CMakeFiles/bmiTests.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmiTests.dir/build.make CMakeFiles/bmiTests.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thiennd/Documents/BT_KiemThu/KiemThuDongDieuKhien/build/CMakeFiles --progress-num=1,2 "Finished codegen for target bmiTests"
+.PHONY : CMakeFiles/bmiTests.dir/codegen
+
+# clean rule for target.
+CMakeFiles/bmiTests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmiTests.dir/build.make CMakeFiles/bmiTests.dir/clean
+.PHONY : CMakeFiles/bmiTests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

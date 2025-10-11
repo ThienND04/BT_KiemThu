@@ -155,6 +155,43 @@ fooTests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fooTests.dir/build.make CMakeFiles/fooTests.dir/build
 .PHONY : fooTests/fast
 
+#=============================================================================
+# Target rules for targets named bmiTests
+
+# Build rule for target.
+bmiTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bmiTests
+.PHONY : bmiTests
+
+# fast build rule for target.
+bmiTests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmiTests.dir/build.make CMakeFiles/bmiTests.dir/build
+.PHONY : bmiTests/fast
+
+bmi.o: bmi.cpp.o
+.PHONY : bmi.o
+
+# target to build an object file
+bmi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmiTests.dir/build.make CMakeFiles/bmiTests.dir/bmi.cpp.o
+.PHONY : bmi.cpp.o
+
+bmi.i: bmi.cpp.i
+.PHONY : bmi.i
+
+# target to preprocess a source file
+bmi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmiTests.dir/build.make CMakeFiles/bmiTests.dir/bmi.cpp.i
+.PHONY : bmi.cpp.i
+
+bmi.s: bmi.cpp.s
+.PHONY : bmi.s
+
+# target to generate assembly for a file
+bmi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmiTests.dir/build.make CMakeFiles/bmiTests.dir/bmi.cpp.s
+.PHONY : bmi.cpp.s
+
 foo.o: foo.cpp.o
 .PHONY : foo.o
 
@@ -235,9 +272,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bmiTests"
 	@echo "... fooTests"
 	@echo "... gradeTests"
 	@echo "... sumTests"
+	@echo "... bmi.o"
+	@echo "... bmi.i"
+	@echo "... bmi.s"
 	@echo "... foo.o"
 	@echo "... foo.i"
 	@echo "... foo.s"
